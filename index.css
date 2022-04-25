@@ -1,11 +1,15 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
+* {
+  color: #3C373B;
+}
 
 
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
   /*=======  Update the font size to 60px and center the text */
-  font-size: 10px;
+  font-size: 60px;
+  text-align: center
 }
 
 h2, h3, h4, h5, h6 {
@@ -13,24 +17,26 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   padding: 0 10px;
   /*=======  Update the font size to 30px */
-  font-size: 10px;
+  font-size: 30px;
 }
 
-/*======= Create a selector for ALL p tags in the site to have the following styles:
+/*======= Create a selector for ALL p tags in the site to have the following styles: */
 
-font-size: 16px;
-font-family: roboto;
-padding: 10px;
-line-height: 1.4;
+p {
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+}
 
-*/
 
 
-/*======= Create a selector for ALL images in the site to have the following styles: 
+/* ======= Create a selector for ALL images in the site to have the following styles:  */
 
+img {
   border-radius: 10px;
+}
 
-*/
 
 .content-row {
   display: flex;
@@ -38,6 +44,7 @@ line-height: 1.4;
 
 .content-row div {
   /*======= create a margin propery.  Set the value to 20px */
+  margin: 20px;
 }
 
 .container {
@@ -52,6 +59,7 @@ line-height: 1.4;
   display: inline-block;
   border-radius: 20px;
   color: white;
+  background-color: #F87B99;
   text-decoration: none;
   margin-bottom: 20px;
    /*======= create a background property. Set the value to #F87B99 */
